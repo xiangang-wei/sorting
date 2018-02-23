@@ -2,11 +2,6 @@
 
   function bubble(array $arr){
 
-    if (empty($arr)) {
-      # code...
-      die("The array can not empty!");
-    }
-
     if (count($arr)<=1) {
       # code...
       return $arr;
