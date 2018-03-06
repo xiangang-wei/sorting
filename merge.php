@@ -1,11 +1,13 @@
 <?php
 
+// 归并排序适用于数据量比较大的，相比于数组的数据结构，基于链表的数据结构更加适合
+// 使用归并排序
+
   function merge(array &$arr, $left, $center, $right){
 
     $temp_left = array_slice($arr,$left,$center-$left+1);
     $temp_right = array_slice($arr,$center+1,$right-$center);
-    // var_dump($temp_left);
-    // var_dump($temp_right);
+
 
     $i = 0;
     $j = 0;
