@@ -43,7 +43,7 @@ function quick(array &$arr,$low,$high){
     }
 }
 
-$arr = [12,90,11,3,5,2,7,15,32,30];
+$arr = [12,90,11,3,5,2,7,15,32];
 echo "before quick sorting："."\n";
 print_r($arr);
 echo "\n";
